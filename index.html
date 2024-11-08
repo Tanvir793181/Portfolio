@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="./assets/Logo.png" type="image/x-icon">
+
+     <!-- bootstrap cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+     <!-- custom css -->
+      <link rel="stylesheet" href="./css/style.css">
+
+
+      <!-- bootstrap icon -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+
+    <!-- header area start -->
+<header class="container-fluid fixed-top navbar navbar-expand-lg">
+  <div class="container-fluid d-flex justify-content-between align-items-center p-3" id="header">
+      
+      <!-- Logo Section -->
+      <div class="p-2">
+          <a href="#" class="navbar-brand ms-4">
+              <img src="./assets/Logo.png" alt="Logo" width="187" height="40">
+          </a>
+      </div>
+
+      <!-- Toggler Button for Small Screens -->
+      <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links and Contact Button -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center" id="navigation">
+              <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #5E3BEE;">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#abme">About me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#testi">Testimonials</a>
+              </li>
+          </ul>
+          <!-- Contact Me Button (appears in toggler menu on small screens) -->
+          <div class="d-lg-none text-center my-3">
+              <button id="btn" class="btn btn-outline-primary">Contact Me</button>
+          </div>
+      </div>
+
+      <!-- Contact Me Button on Larger Screens -->
+      <div class="p-2 d-none d-lg-block">
+          <button id="btn" class="btn btn-primary me-4">Contact Me</button>
+      </div>
+  </div>
+</header>
+<!-- header area end -->
+
+
+  <br>
+  <br>
+    <!-- hero area design -->
+     <div class="container-fluid p-5" style="background-color: #F4FBFE;">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+
+            <div class="col-lg-6 col-md-12" style="">
+                <h1 style="font-weight: 600; font-size: medium; padding: 5px;">Hey,I am Jhon</h1>
+                <h1 style="font-weight: 700; font-size: 3rem; padding: 5px;">I create <span style="color: #5E3BEE;">product design</span><br>and brand experience</h1>
+                <p style="padding: 5px; font-weight: 500;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Suspendisse varius enim in eros elementum tristique.</p>
+                <button style="padding: 15px; width: 171; border: none; background-color: #5E3BEE; color: #fff; border-radius: 5px;">Get In Touch</button>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <img src="./assets/hero-image.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+     </div>
+     <!-- hero area design -->
+
+
+
+     <!-- skill section start -->
+     <div class="container-fluid p-5">
+      <div class="conatiner">
+        <div class="row">
+            <p style="font-weight: 600;">My Skills</p>
+            <h1 style="font-weight: 900;">My Expertise</h1>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="col" id="skill">
+            <div class="p-4 skill-box" style="border-bottom: 4px solid #5E3BEE; border-radius: 3px;">
+              <img src="./assets/logo1.png" alt="" width="60px" class="mb-3">
+              <h1 style="font-size: 1.2rem; font-weight: 600;">Strategy & Direction</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="p-4 skill-box" id="skill">
+              <img src="./assets/Branding & Logo.png" alt="" width="60px" class="mb-3">
+              <h1 style="font-size: 1.2rem; font-weight: 600;">Branding & Logo</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+          </div>
+          
+          <div class="col" id="skill">
+            <div class="p-4 skill-box">
+              <img src="./assets/UI & UX Design.png" alt="" width="60px" class="mb-3">
+              <h1 style="font-size: 1.2rem; font-weight: 600;">UI & UX Design</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+          </div>
+          
+          <div class="col" id="skill">
+            <div class="p-4 skill-box">
+              <img src="./assets/logo4.png" alt="" width="60px" class="mb-3">
+              <h1 style="font-size: 1.2rem; font-weight: 600;">Webflow Development</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       
+
+      </div>
+     </div>
+     <!-- skill section start -->
+
+
+     <br>
+     <br>
+
+
+
+     <!-- about me section -->
+     <div class="conatiner-fluid" id="abme">
+      <div class="container">
+        <div class="row align-items-center justify-content-around">
+          <div class="col-lg-6 col-sm-12 p-5">
+            <img src="./assets/About Me.png" alt="" width="100%">
+          </div>
+          <div class="col-lg-6 col-sm-12 p-5">
+            <p style="font-weight: 700;">About</p>
+            <h1 style="font-weight: 900;">About Me.</h1>
+            <p style="font-weight: 500;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+            <p style="font-weight: 500;">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- about me section -->
+
+
+     <!-- projects section  -->
+     <div class="d-flex align-items-center p-5" id="portfolio">
+      <div class="p-2">
+        <h4 style="font-weight: 700;">Recent Projects</h4>
+        <h1 style="font-weight: 800;">My Portfolio</h1>
+      </div>
+      <div class="p-2 ms-auto">
+        <button class="btn p-2" style="background-color: #E62872; color: #fff;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dribbble" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8m5.284 3.688a6.8 6.8 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A7 7 0 0 1 8 1.18m-2.907.642A43 43 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.87 6.87 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.82 6.82 0 0 1-1.752-4.564zM8 14.837a6.8 6.8 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.3 28.3 0 0 1 1.457 5.18A6.7 6.7 0 0 1 8 14.837m3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.77 6.77 0 0 1-2.924 4.573z"/>
+          </svg>
+          Visit My Dribble
+        </button>
+      </div>
+     </div>
+
+
+     <!-- cards -->
+
+
+        <div class="container-fluid">
+          <div class="container">
+            <div class="d-flex flex-wrap justify-content-center gap-4">
+
+              <!-- Card 1 -->
+              <div class="custom-card-col card" style="border: none;" id="cards">
+                <img src="./assets/i1.png" class="card-img-top object-fit-cover p-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ahuse</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                  <button class="d-flex align-items-center gap-2 p-2" id="dribble">
+                    View in Dribble
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+        
+              <!-- Card 2 -->
+              <div class="custom-card-col card" style="border: none;" id="cards">
+                <img src="./assets/i2.png" class="card-img-top w-100 img-fluid p-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">App Dashboard</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                  <button class="d-flex align-items-center gap-2 p-2" id="dribble">
+                    View in Dribble
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+        
+              <!-- Card 3 -->
+              <div class="custom-card-col card" style="border: none;" id="cards">
+                <img src="./assets/i3.png" class="card-img-top img-fluid w-100 p-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Easy Rent</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                  <button class="d-flex align-items-center gap-2 p-2" id="dribble">
+                    View in Dribble
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+     </div>
+     <!-- projects section  -->
+     
+<br>
+<br>
+
+
+
+     <!-- client section -->
+     <div class="container-fluid p-5" style="background-color: #F4FBFE;" id="testi">
+
+
+      <div class="container">
+       <div class="row my-5">
+        <h3 style="font-weight: 700;">Clients Feedback</h3>
+        <h1 style="font-weight: 700;">Customer testimonials</h1>
+       </div>
+      </div>
+
+      <div class="container">
+       <div class="row gap-5">
+
+        <div class="col" id="clientCard">
+          <!-- star icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <br>
+          <br>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+          <div class="d-flex">
+            <div class="p-2">
+            <img src="./assets/p1.png" alt="" srcset="" width="40px">
+          </div>
+          <div class="p-2">
+            <p><span style="font-weight: 700;">Dianne Russell</span><br>Starbucks</p>
+          </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col" id="clientCard">
+
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+
+          <br>
+          <br>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+          <div class="d-flex">
+            <div class="p-2">
+            <img src="./assets/p2.png" alt="" srcset="" width="40px">
+          </div>
+          <div class="p-2">
+            <p><span style="font-weight: 700;">Kristin Watson</span><br>Louis Vuitton</p>
+          </div>
+          </div>
+
+
+        </div>
+
+
+
+
+        <div class="col" id="clientCard">
+
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+          <br>
+          <br>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+          <div class="d-flex">
+            <div class="p-2">
+            <img src="./assets/p3.png" alt="" srcset="" width="40px">
+          </div>
+          <div class="p-2">
+            <p><span style="font-weight: 700;">Kathryn Murphy</span><br>McDonald's</p>
+          </div>
+          </div>
+
+        </div>
+
+
+       </div>
+      </div>
+     </div>
+     <!-- client section -->
+  
+
+
+
+
+     <!-- ==================================contact from area start================================================ -->
+     <div class="container-fluid p-5">
+      <div class="container">
+
+
+        <div class="row text-center">
+          <h3 class="p-2" style="font-size: smaller; font-weight: 600;">Get In Touch</h3>
+          <h1 class="p-2" style="font-weight: 800;">Contact me</h1>
+          <p class="p-2" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+       
+
+    
+
+
+        <form class="container p-5">
+          <!-- First and Last Name Row -->
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-4 col-sm-10 mb-3">
+              <label for="Fname" class="form-label">First name</label>
+              <input type="text" class="form-control" id="Fname">
+            </div>
+            <div class="col-md-4 col-sm-10 mb-3">
+              <label for="Lname" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="Lname">
+            </div>
+          </div>
+        
+          <!-- Email and Phone Row -->
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-4 col-sm-10 mb-3">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-4 col-sm-10 mb-3">
+              <label for="inputPhone" class="form-label">Phone number</label>
+              <input type="text" class="form-control" id="inputPhone">
+            </div>
+          </div>
+        
+          <!-- Select Topic Row -->
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-8 col-sm-10 mb-3">
+              <label for="selectlabel" class="form-label">Choose a topic</label>
+              <select class="form-select" aria-label="Default select example" id="selectlabel">
+                <option selected>Select one</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        
+          <!-- Message Row -->
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-8 col-sm-10 mb-3">
+              <label for="floatingTextarea2" class="form-label">Message</label>
+              <textarea class="form-control" placeholder="Type your message..." id="floatingTextarea2" style="height: 150px"></textarea>
+            </div>
+          </div>
+        
+          <!-- Terms and Conditions Checkbox Row -->
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-8 col-sm-10 d-flex align-items-center">
+              <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                I accept the terms
+              </label>
+            </div>
+          </div>
+        
+          <!-- Submit Button Row -->
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-10 text-center">
+              <button style="padding: 14px; border: none; background-color: #5E3BEE; color: #fff; border-radius: 5px; width: 150px;" class="btn">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+     </div>
+     <!-- =====================================contact form area end=============================================== -->
+
+
+
+      <!-- ===================================FOOTER AREA START======================================================= -->
+<div class="container-fluid p-5" style="background-color: #F4FBFE;">
+  <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div class="p-2">
+              <img src="./assets/Logo.png" alt="Logo" width="80" height="40" class="ms-4 image-responsive">
+          </div>
+
+          <div class="p-2">
+              <div class="navbar-expand-lg navbar-collapse">
+                  <ul class="navbar-nav d-flex flex-row">
+                      <li class="nav-item ms-2">
+                          <a class="nav-link" aria-current="page" href="#" style="color: #5E3BEE;">Home</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                          <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                          <a class="nav-link" href="#">About me</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                          <a class="nav-link" href="#">Testimonials</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                          <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="p-2">
+              <i class="bi bi-facebook p-2"></i>
+              <i class="bi bi-instagram p-2"></i>
+              <i class="bi bi-twitter p-2"></i>
+              <i class="bi bi-linkedin p-2"></i>
+          </div>
+      </div>
+      <hr class="border-2">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+          <div class="p-2">
+              <h4 style="font-size: 1rem;">Made with 💖 by Tanvir</h4>
+          </div>
+          <div class="p-2 d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 gap-md-5">
+              <h4 style="font-size: 1rem;">Privacy Policy</h4>
+              <h4 style="font-size: 1rem;">Terms of Service</h4>
+              <h4 style="font-size: 1rem;">Cookies Settings</h4>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- =====================================FOOTER AREA END======================================================= -->
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

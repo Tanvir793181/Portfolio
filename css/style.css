@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body {
+    font-family: "Roboto", serif;
+}
+
+#header {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.nav-item {
+    padding: 10px;
+    font-weight: 500;
+}
+#btn {
+    height: 69.33;
+    width: 171;
+    background-color: #fff;
+    border: 2.33px solid #5E3BEE;
+    border-radius: 5px;
+    color: #5E3BEE;
+    padding: 8px;
+}
+
+.skill-box {
+    background-color: #F4FBFE;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s;
+   
+  }
+
+  .skill-box:hover {
+    transform: translateY(-10px);
+  }
+
+#dribble {
+    border: none;
+    border-bottom: solid 2px #5E3BEE;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+#cards {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    transition: transform 0.3s;
+}
+#cards:hover {
+    transform: translateY(-10px);
+}
+#img {
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+#clientCard {
+    border: 2px solid #006B6A;
+    border-radius: 5px;
+    padding: 20px;
+}
+#clientCard svg {
+    color: #006B6A;
+}
+
+
+#Fname, #Lname, #inputPassword4, #inputEmail4, #floatingTextarea2, #selectlabel, #inputPhone {
+    padding: 10px;
+    border: 2px solid #5E3BEE;
+}
+
+
+/* Ensures three columns on large screens and above */
+@media (min-width: 992px) {
+    .custom-card-col {
+      flex: 0 0 30%; /* Approximate width for three columns with some spacing */
+      max-width: 30%;
+    }
+  }
+  
+  /* Ensures two columns on medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .custom-card-col {
+      flex: 0 0 45%; /* Approximate width for two columns with some spacing */
+      max-width: 45%;
+    }
+  }
+  
+  /* Ensures one column on small screens */
+  @media (max-width: 767px) {
+    .custom-card-col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+}
